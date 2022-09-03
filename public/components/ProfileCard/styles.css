@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /*box-shadow: 0px 10px 10px -6px black;*/
+}
+.post {
+    position: relative;
+    width: 360px;
+    min-height: 400px;
+}
+
+.icons {
+display: flex;
+flex-direction: row;
+margin-top: 10px;
+margin-left: 6px;
+padding-bottom: 4px;
+}
+
+.guardar{
+    margin-left: 257px;
+}
+.puntos{
+    
+}
+.charlar{
+    margin-left: 5px;
+}
+.enviar{
+    margin-left: 5px;
+    aspect-ratio: 15;
+}
+
+.container{
+margin-top: 100px;
+margin-left: 600px;
+display: flex;
+flex-direction:column;
+justify-content: center;
+background-color: white;
+width: 360px;
+height: 540px;
+box-shadow: black 0px 0 15px;
+border-radius: 15px;
+}
+
+.user{
+    padding-bottom: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 35px;
+    height: 35px;
+}
+
+.userN {
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    bottom: 6px;
+    right: 5px;
+    margin-top: 3px;
+}
+
+.text {
+    padding-left: 5px;
+}
+.comentarios {
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+}
