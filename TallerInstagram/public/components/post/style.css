@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /*box-shadow: 0px 10px 10px -6px black;*/
+}
+
+
+
+
+.post {
+    position: relative;
+    width: 360px;
+    min-height: 400px;
+}
+
+.icons {
+display: flex;
+flex-direction: row;
+margin-top: 10px;
+margin-left: 6px;
+padding-bottom: 4px;
+}
+
+.guardar{
+    margin-left: 257px;
+}
+
+.charlar{
+    margin-left: 5px;
+}
+.enviar{
+    margin-left: 5px;
+    aspect-ratio: 15;
+}
+
+
+
+.user{
+    padding-bottom: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 35px;
+    height: 35px;
+}
+
+.userN {
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    bottom: 6px;
+    right: 5px;
+    margin-top: 3px;
+}
+
+.text {
+    padding-left: 5px;
+}
+.comentarios {
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+}
