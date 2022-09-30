@@ -31,6 +31,7 @@ class Suggestions extends HTMLElement {
         <div class="suggestions text">
         <p class="suggestions">${this.suggestions}</p>
         </div>
+        <div class="right-col">
         <div class="profile-pic">
         <img src="${this.profile}" width="56px" height="56px" >
     </div>
@@ -39,6 +40,7 @@ class Suggestions extends HTMLElement {
             <p class="razon">${this.razon}</p>
         </div>
         <button class="action-btn">Cambiar</button>
+        </div>
 </div>
         `;
     }

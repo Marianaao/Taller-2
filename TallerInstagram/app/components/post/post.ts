@@ -43,12 +43,12 @@ class Post extends HTMLElement {
     render(): void {
         if(!this.shadowRoot) return;
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="/components/post/style.css"
-        <div class="container"> 
+        <link rel="stylesheet" href="/components/post/style.css">
+        <body>
             <div class="user">
             <img src="${this.usuario}" class="user" height="15px" width="15px">
             
-            <p class="userN"> <b>${this.username}</b> </p>
+            <p class="userN"> ${this.username} </p>
             </div>
         <img src="${this.post}" class="post" width="100px" height="100px">
     
@@ -62,12 +62,11 @@ class Post extends HTMLElement {
         </div>
     
         <div class="text"> 
-        <p class="cantidad"> <b> <b>${this.cantidad}</b> </b> </p>
-        <p class="nombre"> <b>${this.username} </b> instagram post </p>
+        <p class="${this.cantidad}"> <b> 155 likes </b> </p>
+        <p class="nombre"> <b> ${this.username}</b> instagram post </p>
         <p class="comentarios"> ${this.comentarios} </p>
         </div>
-        </div>
-        `;
+        </body>`;
     }
 }
 

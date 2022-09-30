@@ -33,7 +33,7 @@ class Card extends HTMLElement {
         if (!this.shadowRoot)
             return;
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="/components/card/style.css"
+        <link rel="stylesheet" href="/components/card/style.css">
         <nav class="navbar">
         <div class="nav-wrapper">
             <img src="${this.logo}" class="logo" width="230px" height="75px" alt="">

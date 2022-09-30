@@ -10,7 +10,7 @@ main{
     width: 70%;
     max-width: 1000px;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template: 60% 40%;
     grid-gap: 30px;
 }
 

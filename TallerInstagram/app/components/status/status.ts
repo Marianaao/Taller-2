@@ -32,7 +32,7 @@ class Status extends HTMLElement {
         <link rel="stylesheet" href="/components/status/style.css"
         <section class="main">
         <div class="wrapper">
-        <div class="left-col">
+        < class="left-col">
         <div class="status-wrapper">
         <div class="status-card">
         <div class="profile-pic"> <img src="${this.status}" alt=""></div>
@@ -58,12 +58,6 @@ class Status extends HTMLElement {
 <p class="username"> ${this.username} </p>
 </div>
         </div>
-        </div>
-        <div class="right-col">
-        
-        </div>
-            
-            </div>
     </section>
         `;
     }
