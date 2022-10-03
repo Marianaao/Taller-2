@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const Listas = require('./ejercicio4');
 
 const lista1 = ['rat', 'dog', 'cat', 'parrot', 'cat'];
